@@ -1,0 +1,20 @@
+{
+	"name": "azuredataserfistout",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Azurelinkedserviefist",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Anuout.txt",
+				"folderPath": "output",
+				"container": "azureblobfist"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,20 @@
+{
+	"name": "azuredatasetfist",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Azurelinkedserviefist",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Anu.txt",
+				"folderPath": "input",
+				"container": "azureblobfist"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
