@@ -10,7 +10,6 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "Anu.txt",
 				"folderPath": "input",
 				"container": "azureblobfist"
 			}
